@@ -2,17 +2,34 @@
 
 ![Han-Qing Shi — Quantum Software, AI Agents, and Open Source](./assets/profile-header.svg)
 
-I build dependable tools at the intersection of **quantum computing**, **AI agents**, and **developer experience**.
+I build dependable tools at the intersection of **quantum computing**, **AI agents**, and **developer experience** — currently contributing upstream to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**.
 
-[![Merged upstream PRs](https://img.shields.io/badge/merged_upstream_PRs-4-1f883d?style=flat-square&logo=github&logoColor=white)](https://github.com/search?q=is%3Apr+is%3Amerged+author%3AM1racleShih+-user%3AM1racleShih&type=pullrequests)
-[![Upstream projects](https://img.shields.io/badge/upstream_projects-3-8250df?style=flat-square)](#open-source-contributions)
+[![Shipped upstream changes](https://img.shields.io/badge/shipped_upstream_changes-5-1f883d?style=flat-square&logo=github&logoColor=white)](#open-source-contributions)
+[![Open Hermes PRs](https://img.shields.io/badge/open_Hermes_PRs-3-0969da?style=flat-square)](https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+is%3Aopen+author%3AM1racleShih)
+[![Upstream projects](https://img.shields.io/badge/upstream_projects-4-8250df?style=flat-square)](#open-source-contributions)
 [![GitHub followers](https://img.shields.io/github/followers/M1racleShih?style=flat-square&logo=github&label=follow)](https://github.com/M1racleShih?tab=followers)
 
 </div>
 
 ## Open-source contributions
 
-I like focused changes with a clear failure mode, a small review surface, and explicit validation. Here are my public contributions merged into upstream projects:
+I like focused changes with a clear failure mode, a reviewable scope, and explicit validation. The status of every contribution below is stated directly.
+
+### Hermes Agent
+
+[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) is my primary active upstream. My work spans messaging, scheduled jobs, persistent goals, provider compatibility, and distribution reliability.
+
+| Status | Contribution | Impact |
+| --- | --- | --- |
+| **Shipped** | [Feishu Markdown table rendering](https://github.com/NousResearch/hermes-agent/commit/ae22a03ef63943079ebbc53c85c8944218a1262e), submitted in [#29552](https://github.com/NousResearch/hermes-agent/pull/29552) and integrated through [#68121](https://github.com/NousResearch/hermes-agent/pull/68121) | Routed table-shaped Markdown through Feishu's native `post`/`md` path and added a direct payload regression test. The upstream commit preserves my authorship. |
+| **Open** | [#70500 · Allow cron scripts to use an external Python interpreter](https://github.com/NousResearch/hermes-agent/pull/70500) | Adds validated, persistent interpreter selection across Python cron and monitor-script execution paths, with bilingual docs and regression coverage. |
+| **Open** | [#70015 · Load persistent goals from files](https://github.com/NousResearch/hermes-agent/pull/70015) | Extends file-backed goals across the Classic CLI, TUI, and Desktop while preventing remote gateways from reading host files. |
+| **Open** | [#69928 · Repair native Gemini array tool schemas](https://github.com/NousResearch/hermes-agent/pull/69928) | Enforces Gemini's final-wire `items` requirement without losing representable tuple semantics; verified against the live native API. |
+| **Reported** | [#37954 · Distribution updates could drop nested protected-name directories](https://github.com/NousResearch/hermes-agent/issues/37954) | Documented the root cause and a reproducible install/update regression; maintainers later closed it after an equivalent fix landed on `main`. |
+
+<p align="right"><a href="https://github.com/NousResearch/hermes-agent/pulls?q=is%3Apr+author%3AM1racleShih">View all Hermes Agent PRs →</a></p>
+
+### Other merged upstream work
 
 | Upstream project | Merged contribution | Impact |
 | --- | --- | --- |
