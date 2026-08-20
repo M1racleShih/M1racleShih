@@ -26,12 +26,6 @@ I also build and study **AI agents**. I'm most interested in agents as dependabl
 - Treat tests, observability, and documentation as part of the product—not cleanup work.
 - Prefer small, dependable tools over abstractions that are flexible only on paper.
 
-## Open source
-
-I contribute when a concrete user problem crosses a platform, provider, or tooling boundary. Recent upstream work spans **[Hermes Agent](https://github.com/NousResearch/hermes-agent)**, **[NextAI Translator](https://github.com/nextai-translator/nextai-translator)**, **[Codex Desktop Linux](https://github.com/ilysenko/codex-desktop-linux)**, and NVIDIA's **[Quantum Calibration Agent Blueprint](https://github.com/NVIDIA/Quantum-Calibration-Agent-Blueprint)**.
-
-GitHub's native activity overview below keeps the live record. You can also [browse my public pull requests](https://github.com/search?q=is%3Apr+author%3AM1racleShih+-user%3AM1racleShih&type=pullrequests).
-
 ## Working with
 
 <p>
