@@ -1,0 +1,8 @@
+Use case: illustration-story.
+Asset type: a wide illustrated banner for a software engineer's GitHub profile README.
+Primary request: Create an original cartoon banner combining quantum computing / quantum measurement and control with AI agents working together.
+Scene: one coherent miniature laboratory workbench. A friendly small robot agent operates an oscilloscope showing a clean sinusoidal trace; another studies a simple workflow on a terminal; at the center is a stylized superconducting quantum chip, with a clearly connected grid of qubit nodes and control wiring. A simplified gold dilution refrigerator in the background establishes the quantum lab setting. The agents are compact, expressive robot assistants, curious and focused.
+Style: polished hand-drawn editorial cartoon, rounded forms, confident clean outlines, subtle paper texture and soft shading; charming and playful while appropriate for an engineer's public profile. Friendly, uncluttered, softly colored.
+Composition: panoramic approximately 3:1 landscape banner, full-width cohesive scene with generous breathing room, important subjects kept inside safe margins; the composition must remain readable when displayed at 850 pixels wide. Make it feel like a quiet creative workshop. A simple flat background.
+Text: no lettering, no names, no captions. The README will provide all text separately.
+Constraints: no brand logos, no watermark, no stock UI clutter, no dense technical diagram, no photorealism. All three themes—quantum chip, measurement/control, and agent collaboration—must be visible. Opaque background.
