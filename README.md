@@ -1,30 +1,39 @@
 <div align="center">
 
-![Han-Qing Shi — Quantum Software, AI Agents, and Open Source](./assets/profile-header.svg)
+![Cartoon robot agents collaborating at a quantum laboratory workbench with a qubit chip, an oscilloscope, and a dilution refrigerator](./assets/profile-header.png)
 
-**Software engineer · Quantum computing · AI agents · Open source**
+**Software engineer · AI agent tooling · Quantum measurement & control**
 
 </div>
 
 ## Hi, I'm Han-Qing 👋
 
-I'm a software engineer based in China. Much of my work sits close to **quantum measurement and control**: representing chip topology, reasoning about calibration workflows, and turning research concepts into software that engineers can inspect and use.
+I'm a software engineer based in China, building **dependable tools for AI coding agents**: project-scoped skills, model routing, terminal observability, and ways to bring work into everyday workflows.
 
-I also build and study **AI agents**. I'm most interested in agents as dependable systems—not just demos—with explicit boundaries, observable behavior, stable failure semantics, tests, and interfaces that remain useful in real workflows.
+My background is in **quantum measurement and control**, from chip topology to calibration workflows. Across both domains, I care about explicit boundaries, observable behavior, and software that engineers can inspect, test, and use.
 
 ## Right now
 
-- 🤝 Contributing upstream to **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** across scheduling, persistent goals, provider compatibility, messaging, and reliability.
-- 🧪 Building the **[OpenAI Agents SDK Learning Lab](https://github.com/M1racleShih/openai-agents-sdk-learning-lab)** as a practical path from a first agent to a bounded, observable terminal application.
-- 🌱 Learning **quantum error correction**, surface codes, and lattice surgery in public through **[Learn QEC](https://github.com/M1racleShih/learn-qec)**.
-- 🧭 Exploring geometry-first representations of quantum hardware with **[QArray](https://github.com/M1racleShih/quantum-array)**.
+| Project | What I'm building |
+| --- | --- |
+| **[dynamic-skills](https://github.com/M1racleShih/dynamic-skills)** | A versioned local skill pool with explicit, pinned project selections for Codex, Claude Code, Kimi Code, and Pi. Available on PyPI; currently Alpha. |
+| **[pi-hud](https://github.com/M1racleShih/pi-hud)** | A terminal HUD for Pi with context and tool activity, optional session usage accounting, and opt-in provider quota visibility. |
+| **[Qingniao](https://github.com/M1racleShih/qingniao)** | A local model gateway with explicit routing and a Claude Code launcher. Runnable core; early development, with no public registry release yet. |
+| **[conv-docs](https://github.com/M1racleShih/conv-docs)** | A read-only mobile viewer for explicitly published workspace documents, with token authentication, temporary previews, and exclusion rules. |
+
+Recent merged upstream work includes [workspace-scoped skill discovery in cc-connect](https://github.com/chenhg5/cc-connect/pull/1842), [Kimi conversation history in herdr-remote](https://github.com/dcolinmorgan/herdr-remote/pull/81), and [an MCP SDK security update in pi-web-access](https://github.com/nicobailon/pi-web-access/pull/522).
+
+## Learning & research
+
+- 🧪 **[OpenAI Agents SDK Learning Lab](https://github.com/M1racleShih/openai-agents-sdk-learning-lab)** — a hands-on path from a first agent to a bounded, observable terminal application.
+- 🌱 **[Learn QEC](https://github.com/M1racleShih/learn-qec)** — learning quantum error correction, surface codes, and lattice surgery in public.
+- 🧭 **[QArray](https://github.com/M1racleShih/quantum-array)** — exploring geometry-first representations of quantum chip topology.
 
 ## How I like to build
 
-- Start with a reproducible problem and make the failure mode explicit.
-- Keep changes reviewable, then validate them at the real platform or provider boundary.
-- Treat tests, observability, and documentation as part of the product—not cleanup work.
-- Prefer small, dependable tools over abstractions that are flexible only on paper.
+- Start with a reproducible problem, clear boundaries, and explicit failure behavior.
+- Keep changes reviewable; check them against real agent hosts, provider interfaces, and recovery scenarios.
+- Build tests, observability, and documentation alongside the tool.
 
 ## Working with
 
